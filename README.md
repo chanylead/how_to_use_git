@@ -5,5 +5,9 @@
 ```shell
 git update-index --assume-unchanged <file>
 ```
+- 무시한 파일 목록 표시
+```shell
+git ls-files -v | grep "^[[:lower:]]"
+```
 
   
